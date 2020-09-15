@@ -1,0 +1,23 @@
+module randominputtestbench();
+  reg rst,str,clk =0;
+  reg [7:0] inpdata;
+  wire d;
+  wire [7:0] w;
+  my_main MUT (.clock (clk),.reset (rst),.start (str),.data (inpdata),.W (w),.done(d));
+  initial begin
+    assign rst = 1;
+    #20;
+    assign rst = 0;
+    assign str = 1;
+    #55;
+    assign str = 0;
+  end
+  initial repeat (20) #50 clk = ~clk;
+  initial repeat (8) begin
+    inpdata = $random();
+    #100;
+  end
+endmodule
+
+
+

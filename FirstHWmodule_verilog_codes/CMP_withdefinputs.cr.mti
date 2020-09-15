@@ -1,0 +1,36 @@
+C:/modeltech64_10.1c/examples/HW#1/FirstHWmodule/deterministic_inputs_testbench.v {1 {vlog -work work -vopt C:/modeltech64_10.1c/examples/HW#1/FirstHWmodule/deterministic_inputs_testbench.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module dterministicinputstestbench
+
+Top level modules:
+	dterministicinputstestbench
+
+} {} {}} C:/modeltech64_10.1c/examples/HW#1/FirstHWmodule/my_comparator.v {1 {vlog -work work -vopt C:/modeltech64_10.1c/examples/HW#1/FirstHWmodule/my_comparator.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module mycomparator
+
+Top level modules:
+	mycomparator
+
+} {} {}} C:/modeltech64_10.1c/examples/HW#1/FirstHWmodule/my_main.v {1 {vlog -work work -vopt C:/modeltech64_10.1c/examples/HW#1/FirstHWmodule/my_main.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module my_main
+
+Top level modules:
+	my_main
+
+} {} {}} C:/modeltech64_10.1c/examples/HW#1/FirstHWmodule/textio_inputs_testbench.v {1 {vlog -work work -vopt C:/modeltech64_10.1c/examples/HW#1/FirstHWmodule/textio_inputs_testbench.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module testio_input
+
+Top level modules:
+	testio_input
+
+} {} {}} C:/modeltech64_10.1c/examples/HW#1/FirstHWmodule/random_inputs_testbench.v {1 {vlog -work work -vopt C:/modeltech64_10.1c/examples/HW#1/FirstHWmodule/random_inputs_testbench.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module randominputtestbench
+
+Top level modules:
+	randominputtestbench
+
+} {} {}}
